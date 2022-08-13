@@ -35,16 +35,23 @@ html, body {
     width: 200px;
   }
 
-  .wallet-adapter-button.buds {
-    border-radius: 8px;
-    background-color: darkmagenta;
-    font-size: 24px;
-    margin: 4px 2px;
-    border: solid;
-    display: initial;
-    font-family: 'Spicy Rice', cursive;
-    }
 
-
+  .App .wallet-adapter-button {
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        justify-content: center;
+        margin: 10px auto;
+        background-image: url(/src/assets/images/select_wallet.png);
+        align-items: center;
+        cursor: pointer;
+        line-height: 48px;
+        padding: 0 24px;
+        color: transparent!important;
+        justify-content: center;
+        margin: 10px auto;
+        height: 65px!important;
+        width: 262px;
+        }
 
 
