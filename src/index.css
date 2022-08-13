@@ -1,13 +1,50 @@
-@import './reset.css';
+/* @import './reset.css'; */
+
+.App {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 
 html, body {
     background-color: #303030;
     color: #FFFFFF;
+    margin:0px;
 }
 
-#app {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.grad {
+    background-image:
+      url('/src/assets/images/banner.png');
+      width:100vw;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+
+  .logo img {
+    width: 50%;
+  }
+
+
+  .button img {
+    width: 250px;
+  }
+
+
+  .farmButtons img {
+    width: 200px;
+  }
+
+  .wallet-adapter-button.buds {
+    border-radius: 8px;
+    background-color: darkmagenta;
+    font-size: 24px;
+    margin: 4px 2px;
+    border: solid;
+    display: initial;
+    font-family: 'Spicy Rice', cursive;
+    }
+
+
+
+
