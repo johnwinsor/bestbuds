@@ -1,4 +1,4 @@
-# bestbuds NFT staking front-end
+# Best Buds NFT staking front-end
 
 React app
 
