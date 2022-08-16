@@ -36,22 +36,48 @@ html, body {
   }
 
 
-  .App .wallet-adapter-button {
+  /* .App .wallet-adapter-button {
         background-position: 50%;
         background-repeat: no-repeat;
         background-size: contain;
         justify-content: center;
-        margin: 10px auto;
-        background-image: url(/src/assets/images/select_wallet.png);
         align-items: center;
         cursor: pointer;
         line-height: 48px;
         padding: 0 24px;
-        color: transparent!important;
         justify-content: center;
         margin: 10px auto;
         height: 65px!important;
         width: 262px;
-        }
+        } */
+
+.App .wallet-adapter-button {
+    background-color: purple;
+    border: 1px solid black;
+    border-radius: 8px;
+    border-color: #e7e7e7;
+    margin: 10px auto;
+    height: 65px!important;
+    width: 262px;
+    justify-content: center;
+}
+
+.App .wallet-adapter-button-trigger {
+    background-color: #512da8;
+}
+
+.App .wallet-adapter-button:not([disabled]):focus-visible {
+    outline-color: white;
+}
+
+.App .wallet-adapter-button:not([disabled]):hover {
+    background-color: #1a1f2e;
+}
+
+.App .wallet-adapter-button[disabled] {
+    background: #404144;
+    color: #999;
+    cursor: not-allowed;
+}
 
 
